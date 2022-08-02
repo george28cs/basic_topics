@@ -1,0 +1,29 @@
+
+* {
+    margin: 20px;
+    padding: 0;
+}
+
+.midiv {
+    height: 300px;
+    width: 500px;
+    border: 1px double rgb(0, 0, 153);
+    padding: 20px;
+    margin: 100px;
+}
+
+header {
+    border: 5px solid rgb(173, 84, 84);
+    height: 50px;
+    background: rgba(0, 255, 255, 0.22);
+}
+
+main {
+    border: 1px solid blue;
+    height: 300px;
+}
+
+footer {
+    border: 2px solid gray;
+    height: 50px;
+}
