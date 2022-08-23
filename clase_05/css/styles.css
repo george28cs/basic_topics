@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.padre {
+    width: calc(100vw - 2px) ;
+    height: calc(100vh - 2px);
+    border: 1px solid white;
+}
+
+.hijo1{
+    display: inline-block; 
+    border: 1px solid white;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    padding: 1px;
+}
+
+.hijo3{
+    display: inline-block; 
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;  
+}

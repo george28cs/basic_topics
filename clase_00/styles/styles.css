@@ -1,0 +1,21 @@
+.header_01 {
+    font-family: 'Inspiration', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+

@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    height: 200px;
+    width: 200px;
+    border: 1px red solid;
+    background-color: beige;
+    z-index: 1;
+    left: 0;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    border: 1px rgb(47, 0, 255) solid;
+    background: rgb(36, 107, 170);
+    top: 10px;
+    z-index: 3;
+    left: 110px;
+}
+
+#div3 {
+    height: 200px;
+    width: 200px;
+    border: 1px rgb(0, 255, 81) solid;
+    background: red;
+    top: -20;
+    z-index: 2;
+    left: 50px;
+}
+
+.div4 {
+color: red;
+}

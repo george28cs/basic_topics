@@ -1,0 +1,59 @@
+* {
+ margin: 0;
+ padding: 0;   
+}
+
+.container {
+    position: static
+}
+
+#one, #two, #three, #four{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1px white solid;
+}
+
+
+#two {
+    position:sticky;
+    background: blue;
+    top: 0;
+    left: 0;
+}
+
+#three, #four {
+    background: none;
+}
+
+#three{
+    position: fixed;
+}
+
+.square {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    left: 200px;
+}
+
+.circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: rgb(171, 226, 43);
+    border-radius: 50%;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+.circle2 {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background: rgb(14, 4, 93);
+    border-radius: 50%;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+}
