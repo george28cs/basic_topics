@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+display: grid;
+grid-template-rows: 70px 1fr 30px;
+height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header i.fas.fa-bars {
+    display: none;
+}
+.logo i {
+    font-size: 30px;
+    color: rgb(137, 137, 171);
+}
+.logo h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li button {
+    font-size: 20px;
+    transition: all ease 0.3s;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.menu ul li button a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(78, 78, 168, 0.926);
+    font-size: 22px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+    
+    header i.fas.fa-bars {
+        display: block;
+        margin-right: 20px;
+        font-size: 25px;
+    }
+  
+}
