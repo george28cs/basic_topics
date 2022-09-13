@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.form {
+    height: 300px;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus{
+    cursor: pointer;
+}
+a {
+    color: white;
+}
+ button:active {
+    background-color: rgb(41, 81, 67);
+ }
+a:active {
+    color: rgb(148, 11, 41);
+}
+a:visited {
+    color: blue;
+    background-color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input.checkbox {
+    background-color: rgb(44, 42, 165);
+    background: rgb(0, 64, 255);
+    border-color: rgb(63, 42, 165);
+}
+
+input.checkbox:checked + label {
+    color: blue;
+    background-color: red;
+    box-shadow: 0 0 0 3px hotpink;
+
+}
+
+input[type="checkbox"]:checked + label {
+    color: red;
+}
+li {
+    list-style: none;
+}
+li:last-child {
+    /* border-top: 3px double red; */
+}
+li:nth-child(4){
+    color: red; 
+    
+}
+li:nth-last-child(odd) {
+    /* color: blue;  */
+}
+li:nth-of-type(3) {
+    color: rgb(13, 90, 90);
+}

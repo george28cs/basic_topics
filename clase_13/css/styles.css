@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.absolute {
+    font-size: 1rem;
+}
+
+
+
+
+body {
+    font-size: 2rem;
+    height: 100vh;
+    width: 100vw;
+    border: 10px solid rgb(7, 10, 91);
+}
+
+.parent {
+    height: 30%;
+    width: 30%;
+    border: 1px solid white;
+}
+.child {
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    border: 4px solid rebeccapurple;
+}
+
+.em_example {
+   font-size: 4rem; 
+}
+
+.child_em {
+    font-size: 2em;
+}
+
+.child_rem {
+    font-size: 3rem;
+}
+.animado {
+    background-color: blue;
+    height: 20px;
+    width: 50px;
+    border-radius: 20%;
+}
+.animado:hover {
+    animation: moverDiv 1s infinite linear;
+
+}
+.em_example::before {
+    content: "\"";
+}
+
+.em_example::after {
+    content: "\"";
+}
+
+@keyframes moverDiv {
+    0% {
+        transform: rotate(0);
+      }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+.x {
+    color: blue
+}
+
+.em_example > .child_em {
+    color: red;
+}
+
+.child_em + .child_em_brother {
+    color: brown;
+}
